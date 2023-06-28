@@ -7,10 +7,14 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.1.6/dist/full.css" rel="stylesheet" type="text/css" />
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body>   
+    
     <%= yield %>
+
+    <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
